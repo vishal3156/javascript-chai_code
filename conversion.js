@@ -23,11 +23,22 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let value = 3;
 let negValue = -value;
 // console.log(negValue);
+// console.log("")
 
 /*-------------------------------------------------*/
 
 let str1 = "hello";
 let str2 = "hitesh";
 
-let str3 = str1 + str2;
-console.log(str3)
+let str3 = str1 + " "+ str2;
+// console.log(str3)
+
+// let str4 = str1 + " " + str2 + " " + str3;
+// console.log(str4);
+
+let num1, num2, num3
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+gameCounter = gameCounter++;
+console.log(gameCounter);
